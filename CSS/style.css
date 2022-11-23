@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+body{
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #121111;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0%;
+    text-shadow: 0 0 15px lightblue, 0 0 30px lightblue,0 0 50px lightblue;
+    
+
+
+
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 15px lightblue, 0 0 30px lightblue,0 0 50px lightblue;
+    
+
+}
+@keyframes h1{
+    to{
+        color: white;
+        text-shadow: none;
+    }
+   
+}
+
+
+.Balones{
+    text-shadow: 0 0 15px gold, 0 0 30px gold,0 0 50px gold;
+    animation: h1 1.5s infinite backwards steps(2);
+
+    
+}
+@keyframes Balones{
+    to{
+        color: gold;
+        text-shadow: none;
+    }
+}
+.argentina{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+ul{
+    list-style: none;;
+    
+}
+a{
+    font-family: 'Vollkorn', serif;
+    text-decoration: none;
+    color: hsl(258, 60%, 10%)
+     
+    
+    
+
+}
+ul{
+    list-style: none;
+    
+    
+
+    
+}
+
+.menuContainer{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.menu li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    width: 300px;
+    float: left;
+    text-align: center;
+    
+    
+
+   
+}
+.menu li{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.menu li:hover{
+    background-color: #d9fbff;
+    box-shadow: 0 0 10px #d9fbff,0 0 40px #d9fbff, 0 0 80px #d9fbff ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,#d9fbff);
+    
+    
+}
+
+.fondo{
+    background-image: url(https://cdn.dribbble.com/users/3860584/screenshots/16444368/leo-messi-goat.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+footer.container{
+    background-image: linear-gradient(135deg,#2167e7,#505488,#2f3f80,#161569,#5a4894,#6ca9c4,#570fd2);
+    background-size: 500%;
+    animation: container 10s infinite;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes container{
+   0%{
+        background-position: 0% 50%;
+
+   }
+   50%{
+    background-position: 100% 50%;
+   }
+   100%{
+    background-position: 0% 50%;
+   }
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+   
+
+   
+}
+
+
+
+
+body.fondoA{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc3e340e0df9661b5/60dfda94a7da2422cbc6665a/5a975f0a1c5cd1b5b89cf55d9eafc99fc63e06cb.jpg);
+    text-align: center;
+    
+}
+.linksA{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+    
+    
+}
+
+body.fondoB{
+    background-image: url(http://img.bleacherreport.net/img/article/media_slots/photos/002/658/705/4555d2b0cc6a138d37031d55aa93a561_crop_exact.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top);
+    text-align: center;
+}
+.linksB{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+    
+}
+body.FondoC{
+    background-image: url(https://www.bitbol.la/files/image/16/16458/6078beca385f4.jpg);
+    text-align: center;
+}
+body.FondoL{
+    background-image: url(https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-02/messi_0.jpg?itok=yxRd8Ujo);
+    text-align: center;
+}
+.menuB li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menuB li{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.menuB li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+
+}
+.FondoBa{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/Z3I7F3YTPZDXZP2QF2OXNNZ56A.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    
+    
+
+}
+.menuball li{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.menuball li:hover{
+    background-color: #d9fbff;
+    box-shadow: 0 0 10px #d9fbff,0 0 40px #d9fbff, 0 0 80px #d9fbff ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,#d9fbff);
+}
+body.b1{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6de9086711544344/60e0a63ab35a444928686d79/6e5602fb6fbcc968d964c798a0b927de7ac8b944.jpg?format=webp);
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.menub1{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+
+}
+.menub1 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub1 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+
+}
+body.b2{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt59be9c0f8901959a/60db8a7563584e0ecae3b29b/fce2af18bbdc87f7757e569894a8b557db93c333.jpg?auto=webp&format=jpg&quality=60&w=1280);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+menu.b2{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+}
+.menub2 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub2 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+}
+body.b3{
+    background-image: url(https://img2.rtve.es/v/1290909?w=1600&preview=1326209321585.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+menu.b3{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700px;
+}
+.menub3 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub3 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+}
+body.b4{
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_46/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_es_international_web/01fnnk4gx609t7zkbqkw.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+}
+menu.b4{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+}
+.menub4 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub4 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+}
+body.b5{
+    background-image: url(https://www.telemundodeportes.com/sites/default/files/2016/01/11/messi_balon_oro_2015.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+}
+menu.b5{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+}
+.menub5 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub5 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+}
+body.b6{
+    background-image: url(https://cnnespanol.cnn.com/wp-content/uploads/2019/12/lionel-messi-gettyimages-1186194253.jpg?quality=100&strip=info);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+menu.b6{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+}
+.menub6 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub6 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+}
+body.b7{
+    background-image: url(https://editorial.uefa.com/resources/026f-13d753b47998-f715a760c08d-1000/ballon_d_or_ceremony_at_theatre_du_chatelet_in_paris.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+}
+menu.b7{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 700x;
+}
+.menub7 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 14px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    text-align: center;
+    width: 300px;
+    float: left;
+
+}
+.menub7 li:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold,0 0 40px gold, 0 0 80px gold ;
+    transition-delay: 0.2s;
+    top: 0%;
+    left: -100%;
+    background: linear-gradient(90deg,transparent,gold);
+}
+
+
+
+
+
+
+
+
+
+
+section.footer{
+    background: lightblue;
+    position: absolute;
+    bottom: 0;
+    width: 600x;
+    height: 260px;
+    left: 0%;
+    background: linear-gradient(100deg,transparent,lightblue);
+    text-align: center;
+    
+}
+.contenedor{
+    background-color: transparent;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer.Menub{
+    background: yellow;
+    position: absolute;
+    bottom: 0;
+    width: 600x;
+    height: 260px;
+    left: 0%;
+    background: linear-gradient(20deg,transparent,yellow);
+    text-align: center;
+
+}
+.card{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+}
+.content ul, a{
+    color: rgba(255, 255, 255, .8)
+}
+.card:hover .content{
+    opacity: 1;
+
+    
+}
+@media all and (max-width: 375px) {
+    .card{
+        margin: 5px;
+        width: 40000rem;
+        height: 10ch;
+        border-radius: 5px;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .menu li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+    font-weight: 100px;
+    padding: 1px;
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;   
+    width: 500px;
+    float: left;
+    text-align: center;
+    
+
+    }
+    main iframe{
+        justify-content: center;
+        width: auto;
+
+    }
+    .fondoA, .fondoB,.fondoL, .FondoC{
+        height: 99vh;
+
+    }
+    
+    .menuB li{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: 10px;
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box;
+            overflow: hidden;
+            border-radius: 10px;   
+            text-align: center;
+            width: 300px;
+            height: 0.1vh; ;
+        
+    }
+    footer.Menub{
+        background: yellow;
+        position: absolute;
+        bottom: 0;
+        width: 600x;
+        height: 550px;
+        left: 0%;
+        background: linear-gradient(20deg,transparent,yellow);
+      
+    
+    }
+   .contenedorbal{
+    align-items: baseline;
+    padding: 10px;
+   }
+
+
+   
+    
+   
+    
+}
+@media all and (max-width: 414px) {
+    .card{
+        margin: 5px;
+        width: 40000rem;
+        height: 10ch;
+        border-radius: 5px;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .menu li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 90px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;   
+    width: 500px;
+    float: left;
+    text-align: center;
+    }
+    main iframe{
+        justify-content: center;
+        width: auto;
+
+    }
+    .fondoA, .fondoB,.fondoL, .FondoC{
+        height: 99vh;
+
+    }
+    
+    .menuB li{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: 10px;
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box;
+            overflow: hidden;
+            border-radius: 10px;   
+            text-align: center;
+            width: 300px;
+            height: 0.1vh; ;
+        
+    }
+    footer.Menub{
+        background: yellow;
+        position: absolute;
+        bottom: 0;
+        width: 600x;
+        height: 550px;
+        left: 0%;
+        background: linear-gradient(20deg,transparent,yellow);
+      
+    
+    }
+   .contenedorbal{
+    align-items: baseline;
+    padding: 10px;
+   }
+
+   
+    
+   
+    
+}
+
+
+
+

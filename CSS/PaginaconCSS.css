@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+
+}
+.Balones{
+    color: gold;
+}
+.argentina{
+    color: blue;
+}
+.fondo{
+    background-color: lightblue;
+}
+
+.fuente{
+    font-size: 25px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+ul{
+    list-style: none;;
+    
+}
+a{
+    color: black
+
+}
+ul{
+    list-style: none;
+    justify-content: space-around;
+
+    
+}
+nav li{
+    padding: 10px;
+    text-align: center;
+}
+nav li:hover{
+    background-color: blue;
+}
+body{
+    background-image: url(https://pbs.twimg.com/media/FFnsNEmXwAcdSi-.jpg:large);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+body.fondoA{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc3e340e0df9661b5/60dfda94a7da2422cbc6665a/5a975f0a1c5cd1b5b89cf55d9eafc99fc63e06cb.jpg);
+    text-align: center;
+    
+}
+.linksA{
+    display: flex;
+    background-color: wheat;
+    
+}
